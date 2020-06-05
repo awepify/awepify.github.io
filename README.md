@@ -1,2 +1,2 @@
-# awepify.github.io
+# Awepify Resources
 Awepify Resources
