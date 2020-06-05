@@ -188,24 +188,6 @@ jQuery(function($){
         });
       },
 
-      tracking: function() {
-      	$('a[data-track]').on('click', function(e) {
-      		var data = $(this).data('track');
-      		switch(data) {
-      			case 'Download':
-      				var version = $(this).data('version');
-	      			_gaq.push(['_trackEvent', 'Timber', 'Download', 'Version: ' + version]);
-      				break;
-      			case 'Demo':
-      				_gaq.push(['_trackEvent', 'Timber', 'Click', 'Demo Store']);
-      				break;
-      			case 'Demo Empty':
-      				_gaq.push(['_trackEvent', 'Timber', 'Click', 'Demo Store Empty']);
-      				break;
-      		}
-      	});
-      }
-
     };
     $.extend(app, timber);
 
