@@ -59,7 +59,6 @@ jQuery(function($){
         this.docsNav();
         this.docsHelpers();
         this.waypoints();
-        this.tracking();
 
         // Prevent # from going to top of page
         $('a[href="#"]').on('click',function(e){e.preventDefault()});
