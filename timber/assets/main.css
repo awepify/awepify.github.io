@@ -2358,7 +2358,7 @@ select {
 	-moz-appearance: none;
 	appearance: none;
 	background-position: right center;
-	background-image: url("//cdn.shopify.com/s/files/1/0479/0585/t/23/assets/ico-select.svg?14657424912958053009");
+	background-image: url("ico-select.svg");
 	background-repeat: no-repeat;
 	background-position: right 10px center;
 	background-color: transparent;
@@ -3852,7 +3852,7 @@ li.L9 {
 	background: #d2e8bc
 }
 
-.home-cta {
+.home-cta { 
 	text-align: center;
 	padding: 24px;
 	-webkit-transition: padding 0.2s ease-in-out;
